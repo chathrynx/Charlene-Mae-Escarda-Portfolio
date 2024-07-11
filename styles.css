@@ -185,6 +185,14 @@ footer{background: #202020;}
   .work_box_area {grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));}
  }
 
+ @media only screen 
+    and (width: 390px) 
+    and (height: 844px) 
+    and (-webkit-device-pixel-ratio: 3)
+    {.work_intro{width: 420px;}
+    .work_intro p{font-size: 16px;}
+    .work_box_area {grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));}}
+
 
 /*Services*/    
 @media screen and (max-width: 1536px)
