@@ -253,6 +253,21 @@ footer{background: #202020;}
   .footer_container .footer_right {width: 33%;}
   }
 
+  @media screen and (max-width: 390px) {
+    .aboutme_container{height: 110vh;}
+    .skills_bar_body{height: 100vh; display: block; padding-top: 250px;}
+    .skills_bar_container{margin: 0 auto; }
+    .work_intro{width: 260px; max-width: 100%;}
+    .services .descrip{width: 260px; }
+  
+  
+    .footer_container .footer_links{font-size: 12px;}
+    .footer_container .footer_company_name{font-size: 12px;}
+    .footer_container .footer_center{text-align: left;}
+    .footer_container .footer_center p {font-size: 11px;}
+    .footer_container .footer_right {width: 63%;}
+  }
+
   @media screen and (max-width: 320px) {
     .main_btn {margin-top: 1rem;}
     #main_id {width: 90%;}
