@@ -253,7 +253,7 @@ footer{background: #202020;}
   .footer_container .footer_right {width: 33%;}
   }
 
-  @media all and (min-width:0px) and (max-width: 320px) {
+  @media screen and (max-width: 320px) {
     .main_btn {margin-top: 1rem;}
     #main_id {width: 90%;}
     .aboutme_container{height: 140vh;}
