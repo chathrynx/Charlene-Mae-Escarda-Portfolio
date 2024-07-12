@@ -253,4 +253,18 @@ footer{background: #202020;}
   .footer_container .footer_right {width: 33%;}
   }
 
+  @media all and (min-width:0px) and (max-width: 320px) {
+    .main_btn {margin-top: 1rem;}
+    #main_id {width: 90%;}
+    .aboutme_container{height: 140vh;}
+    .skills_bar_body{height: 120vh; display: block; padding-top: 250px;}
+    .skills_bar_container{margin: 0 auto;padding: 10px 14px; }
+    .work_intro{width: 260px; max-width: 100%;}
+    .services .descrip{width: 260px; }
   
+    .footer_container .footer_links{font-size: 12px;}
+    .footer_container .footer_company_name{font-size: 12px;}
+    .footer_container .footer_center{text-align: left;}
+    .footer_container .footer_center p {font-size: 11px;}
+    .footer_container .footer_right {width: 63%;}
+  }
